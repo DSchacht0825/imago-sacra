@@ -37,10 +37,10 @@ export default function Header() {
             <Link
               key={item.href}
               href={item.href}
-              className={`font-light transition-colors duration-300 ${
+              className={`font-medium transition-colors duration-300 ${
                 pathname === item.href
-                  ? 'text-slate-800 border-b border-slate-300 pb-1'
-                  : 'text-slate-600 hover:text-slate-800'
+                  ? 'text-slate-900 border-b border-slate-600 pb-1'
+                  : 'text-slate-800 hover:text-slate-900'
               }`}
             >
               {item.label}

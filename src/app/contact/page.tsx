@@ -45,7 +45,7 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             
             {/* Contact Form */}
-            <div>
+            <div className="bg-white/95 backdrop-blur-sm p-8 rounded-2xl shadow-xl border border-white/50">
               <h2 className="text-3xl font-light text-slate-800 mb-8">
                 Share Your Story
               </h2>
@@ -75,6 +75,24 @@ export default function ContactPage() {
                     className="w-full px-4 py-3 border border-slate-200 rounded-lg focus:border-slate-400 focus:ring-0 focus:outline-none transition-colors duration-200"
                     placeholder="How can we reach you?"
                   />
+                </div>
+
+                <div>
+                  <label htmlFor="coach" className="block text-sm font-light text-slate-600 mb-2">
+                    Who would you like to work with?
+                  </label>
+                  <select 
+                    id="coach"
+                    name="coach"
+                    className="w-full px-4 py-3 border border-slate-200 rounded-lg focus:border-slate-400 focus:ring-0 focus:outline-none transition-colors duration-200"
+                  >
+                    <option value="">Choose a guide for your journey...</option>
+                    <option value="yvonne-araujo">Yvonne Araujo - Contemplative Spiritual Direction</option>
+                    <option value="derek-rice">Derek Rice - Transformational Life Coaching</option>
+                    <option value="jay-williams">Jay Williams - Mindfulness & Meditation</option>
+                    <option value="chelsea-long">Chelsea Long - Enneagram & Personal Growth</option>
+                    <option value="no-preference">No preference - help me choose</option>
+                  </select>
                 </div>
 
                 <div>
@@ -118,11 +136,12 @@ export default function ContactPage() {
 
             {/* Contact Information & Philosophy */}
             <div className="lg:pl-8">
-              <h2 className="text-3xl font-light text-slate-800 mb-8">
-                Our Promise
-              </h2>
-              
-              <div className="space-y-8">
+              <div className="bg-white/90 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-white/40">
+                <h2 className="text-3xl font-light text-slate-800 mb-8">
+                  Our Promise
+                </h2>
+                
+                <div className="space-y-8">
                 <div>
                   <h3 className="text-lg font-light text-slate-700 mb-3">
                     Confidentiality
@@ -168,6 +187,7 @@ export default function ContactPage() {
                   </div>
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>

@@ -11,8 +11,8 @@ export default function ClosingGrace() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&h=1080&fit=crop&crop=center"
-          alt="Golden hour landscape"
+          src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=1920&h=1080&fit=crop&crop=center"
+          alt="Golden meadow at sunset"
           fill
           className="object-cover"
         />

@@ -12,28 +12,6 @@ export interface Coach {
 
 export const coaches: Coach[] = [
   {
-    id: 'daniel',
-    name: 'Daniel Schacht',
-    title: 'Circle Keeper',
-    specialty: 'Identity & Calling Discernment',
-    bio: 'A fellow seeker who believes every soul carries a sacred blueprint waiting to be discovered. Daniel creates spaces where the deepest questions can breathe.',
-    approach: 'Contemplative coaching that honors both the mystery of faith and the practical needs of daily life.',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face',
-    credentials: ['ICF Certified Coach', 'Spiritual Direction Certificate', 'Masters in Theology'],
-    availability: 'accepting'
-  },
-  {
-    id: 'sarah',
-    name: 'Sarah Chen',
-    title: 'Presence Guide',
-    specialty: 'Mindfulness & Spiritual Formation',
-    bio: 'A bridge between ancient wisdom and modern living, Sarah helps others discover the sacred in the ordinary.',
-    approach: 'Integrative practices that weave contemplation, embodiment, and everyday spirituality.',
-    image: 'https://images.unsplash.com/photo-1494790108755-2616b612b000?w=400&h=400&fit=crop&crop=face',
-    credentials: ['Certified Mindfulness Teacher', 'Spiritual Formation Institute', 'MA in Contemplative Studies'],
-    availability: 'accepting'
-  },
-  {
     id: 'marcus',
     name: 'Marcus Rodriguez',
     title: 'Transformation Companion',
@@ -45,14 +23,25 @@ export const coaches: Coach[] = [
     availability: 'waitlist'
   },
   {
-    id: 'elena',
-    name: 'Elena Thompson',
-    title: 'Creative Awakener',
-    specialty: 'Creativity & Expression',
-    bio: 'An artist-mystic who believes creativity is prayer in motion. Elena helps others discover their unique voice in the divine symphony.',
-    approach: 'Arts-based spiritual direction that uses creativity as a pathway to the soul.',
+    id: 'yvonne',
+    name: 'Yvonne Araujo',
+    title: 'Worship Pastor & Spiritual Coach',
+    specialty: 'Worship, Spiritual Direction & Creative Expression',
+    bio: 'A worship pastor, musician, and spiritual coach whose heart beats for helping others encounter the presence of God in authentic and transformative ways. With years of experience leading worship and walking alongside people in seasons of celebration and struggle.',
+    approach: 'Drawing from her journey in worship, pastoral leadership, and creative expression, Yvonne creates safe and compassionate spaces for reflection, blending pastoral insight, creative practices, and spiritual disciplines.',
     image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face',
-    credentials: ['MFA in Creative Arts', 'Expressive Arts Therapy', 'Certificate in Spiritual Direction'],
+    credentials: ['Director of Worship Arts - First Presbyterian El Cajon', 'Parish Collective Music', 'Spiritual Direction & Coaching'],
+    availability: 'accepting'
+  },
+  {
+    id: 'derek',
+    name: 'Derek Rice',
+    title: 'Worship Pastor & Spiritual Coach',
+    specialty: 'Worship Leadership & Spiritual Formation',
+    bio: 'A worship pastor, mentor, and spiritual coach based in San Diego. With years of leading worship and guiding teams, Derek brings both pastoral sensitivity and artistic insight to spiritual journeys.',
+    approach: 'Relational and holistic coaching that combines spiritual disciplines, prayer, contemplative practices, and practical life coaching tools to support clients in seasons of waiting, transition, or spiritual longing.',
+    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face',
+    credentials: ['Worship Pastor', 'Spiritual Coach & Mentor', 'Group Facilitation'],
     availability: 'accepting'
   },
   {
@@ -62,7 +51,7 @@ export const coaches: Coach[] = [
     specialty: 'Community & Connection',
     bio: 'A student of sacred relationship who understands that we discover ourselves most fully in authentic connection with others.',
     approach: 'Relational coaching that explores how we show up in relationship with ourselves, others, and the Divine.',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face',
+    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop&crop=face',
     credentials: ['Marriage & Family Therapist', 'Gottman Method Couples Training', 'Certificate in Group Dynamics'],
     availability: 'accepting'
   }

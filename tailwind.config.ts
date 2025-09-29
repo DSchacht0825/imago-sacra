@@ -35,8 +35,10 @@ const config: Config = {
         }
       },
       fontFamily: {
-        'sans': ['Inter', 'system-ui', 'sans-serif'],
-        'serif': ['Crimson Pro', 'serif'],
+        'sans': ['var(--font-source-sans)', 'system-ui', 'sans-serif'],
+        'serif': ['var(--font-playfair)', 'serif'],
+        'playfair': ['var(--font-playfair)', 'serif'],
+        'source': ['var(--font-source-sans)', 'system-ui', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

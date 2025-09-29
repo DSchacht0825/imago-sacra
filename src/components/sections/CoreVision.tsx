@@ -11,8 +11,8 @@ export default function CoreVision() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&h=1080&fit=crop&crop=center"
-          alt="Misty mountains background"
+          src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=1920&h=1080&fit=crop&crop=center"
+          alt="Morning forest light"
           fill
           className="object-cover"
         />
@@ -27,7 +27,7 @@ export default function CoreVision() {
           {core_vision.pillars.map((pillar, index) => (
             <div key={index} className="text-center">
               {/* Pillar Title */}
-              <h3 className="text-2xl font-light text-slate-800 mb-6">
+              <h3 className="text-2xl font-playfair font-light text-slate-800 mb-6">
                 {pillar.title}
               </h3>
               

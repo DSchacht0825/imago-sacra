@@ -8,8 +8,8 @@ export default function WhoWeAre() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1418489098061-ce87b5dc3aee?w=1920&h=1080&fit=crop&crop=center"
-          alt="Peaceful valley landscape"
+          src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=1920&h=1080&fit=crop&crop=center"
+          alt="Misty forest landscape"
           fill
           className="object-cover"
         />
@@ -21,17 +21,17 @@ export default function WhoWeAre() {
         
         {/* Title - Ultra elegant */}
         <div className="text-center mb-24">
-          <h2 className="text-5xl sm:text-6xl lg:text-7xl font-extralight text-slate-800 leading-tight tracking-wider">
+          <h2 className="text-5xl sm:text-6xl lg:text-7xl font-playfair font-extralight text-slate-800 leading-tight tracking-wider">
             Who We Are
           </h2>
         </div>
 
         {/* Opening statement - Large and centered */}
         <div className="text-center mb-20">
-          <p className="text-3xl sm:text-4xl font-extralight text-slate-700 leading-relaxed tracking-wide">
+          <p className="text-3xl sm:text-4xl font-playfair font-light text-slate-700 leading-relaxed tracking-wide">
             We are not a brand, but a circle.
           </p>
-          <p className="text-2xl sm:text-3xl font-extralight text-slate-600 leading-relaxed mt-6 tracking-wide">
+          <p className="text-2xl sm:text-3xl font-playfair font-light text-slate-600 leading-relaxed mt-6 tracking-wide">
             Not experts who have it all figured out, but fellow travelers on the sacred path.
           </p>
         </div>

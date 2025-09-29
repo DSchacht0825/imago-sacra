@@ -47,16 +47,19 @@ export const siteContent = {
     subtitle: "Simple pathways into deeper connection",
     practices: [
       {
-        title: "Circles of Conversation",
-        description: "Small groups gathering to explore life's deepest questions together."
+        title: "Sacred Conversation",
+        description: "One-on-one spiritual direction rooted in contemplative dialogue.",
+        href: "/circles"
       },
       {
         title: "Practices for Presence",
-        description: "Gentle guidance in contemplative practices that open the heart."
+        description: "Individual guidance in contemplative practices that open the heart.",
+        href: "/practices"
       },
       {
         title: "Guidance for the Inner Journey", 
-        description: "One-on-one accompaniment for those ready to go deeper."
+        description: "Personal accompaniment for those ready to go deeper.",
+        href: "/guidance"
       }
     ]
   },

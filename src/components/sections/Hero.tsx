@@ -11,8 +11,8 @@ export default function Hero() {
       {/* Background Image with Opacity */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/image1.jpg"
-          alt="Hero background"
+          src="/images/tree-of-life.jpg"
+          alt="Sacred tree of life background"
           fill
           className="object-cover"
           priority
@@ -26,7 +26,7 @@ export default function Hero() {
         
         {/* Centering Statement - Large, contemplative */}
         <div className="mb-16">
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-light text-slate-800 leading-tight tracking-wide">
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-playfair font-light text-slate-900 leading-tight tracking-wide">
             {hero.centering_statement}
           </h1>
         </div>
@@ -36,7 +36,7 @@ export default function Hero() {
 
         {/* Invitation paragraph - Gentle, spacious */}
         <div className="mb-20">
-          <p className="text-xl sm:text-2xl font-light text-slate-700 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-xl sm:text-2xl font-medium text-slate-900 leading-relaxed max-w-3xl mx-auto">
             {hero.invitation}
           </p>
         </div>
@@ -46,11 +46,11 @@ export default function Hero() {
 
         {/* Simple, contemplative call to action */}
         <div>
-          <button className="group text-slate-800 hover:text-slate-900 font-light text-lg transition-colors duration-300">
-            <span className="border-b border-slate-400 group-hover:border-slate-700 pb-1">
+          <button className="group text-slate-900 hover:text-black font-light text-lg transition-colors duration-300">
+            <span className="border-b border-slate-600 group-hover:border-slate-900 pb-1">
               {hero.cta_primary}
             </span>
-            <span className="ml-2 text-slate-500 group-hover:text-slate-700 transition-colors duration-300">
+            <span className="ml-2 text-slate-600 group-hover:text-slate-900 transition-colors duration-300">
               →
             </span>
           </button>
@@ -58,7 +58,7 @@ export default function Hero() {
 
         {/* Gentle scroll indication */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
-          <div className="w-px h-12 bg-slate-400/60"></div>
+          <div className="w-px h-12 bg-slate-600/60"></div>
         </div>
       </div>
     </section>

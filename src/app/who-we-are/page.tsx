@@ -13,8 +13,8 @@ export default function WhoWeArePage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?w=1920&h=1080&fit=crop&crop=center"
-            alt="Gentle mountain meadow"
+            src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1920&h=1080&fit=crop&crop=center"
+            alt="Sunlit forest path"
             fill
             className="object-cover"
           />
@@ -26,7 +26,7 @@ export default function WhoWeArePage() {
           
           {/* Section Title */}
           <div className="text-center mb-20">
-            <h2 className="text-4xl font-light text-slate-800 mb-4">
+            <h2 className="text-4xl font-playfair font-light text-slate-800 mb-4">
               Our Circle
             </h2>
             <p className="text-xl font-light text-slate-600 max-w-3xl mx-auto">
@@ -35,7 +35,7 @@ export default function WhoWeArePage() {
           </div>
 
           {/* Coaches Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             {coaches.map((coach) => (
               <div key={coach.id} className="text-center group">
                 
@@ -51,7 +51,7 @@ export default function WhoWeArePage() {
 
                 {/* Coach Info */}
                 <div>
-                  <h3 className="text-2xl font-light text-slate-800 mb-2">
+                  <h3 className="text-2xl font-playfair font-normal text-slate-800 mb-2">
                     {coach.name}
                   </h3>
                   
@@ -101,8 +101,8 @@ export default function WhoWeArePage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1920&h=1080&fit=crop&crop=center"
-            alt="Serene lake reflection"
+            src="https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=1920&h=1080&fit=crop&crop=center"
+            alt="Peaceful mountain lake"
             fill
             className="object-cover"
           />
